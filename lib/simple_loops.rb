@@ -1,3 +1,4 @@
+#takes in a message and outputs it five times
 def loop_message_five_times(message)
   count = 0
   while count < 5 do
@@ -6,9 +7,10 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(message, limit)
+#takes in a message and a number outputs the message that number of times
+def loop_message_n_times(message, n)
   count = 0
-  while count < limit do
+  while count < n do
     puts message
     count += 1
   end
