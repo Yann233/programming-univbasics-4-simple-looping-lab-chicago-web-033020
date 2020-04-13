@@ -16,7 +16,7 @@ def loop_message_n_times(message, n)
   end
 end
 
-#Loop messages however many times you would like! 
+#Loop messages however many times you would like!
 With an array, we can store a whole set of strings and use a loop to output them all
 
 def output_array(array)
