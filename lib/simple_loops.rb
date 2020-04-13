@@ -1,3 +1,4 @@
+# https://learn.co/tracks/fswd-prework-2-01/fswd-prework-2-01-fswd-prework/fswd-prework-2-01-fswd-prework-programming-as-conversation-part-4-collection-data-types-array-and-hash/basic-looping-lab
 #takes in a message and outputs it five times
 def loop_message_five_times(message)
   count = 0
@@ -26,6 +27,7 @@ def output_array(array)
   end
 end
 
+#takes in an array of elements, converts them to strings and returns them all in a new array
 def return_string_array(array)
   count = 0
   while count < array.length do
