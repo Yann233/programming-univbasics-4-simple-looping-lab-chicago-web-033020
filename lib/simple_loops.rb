@@ -1,8 +1,7 @@
-def return_string_array(array)
+def method_name(parameter)
   count = 0
-  while count < array.length do
-    array[count] = array[count].to_s
+  while count < (something)
+    # do something with the parameter
     count += 1
   end
-  array
 end
